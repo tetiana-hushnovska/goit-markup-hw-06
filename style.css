@@ -1,0 +1,36 @@
+body{
+    background-color: #FFFFFF;;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+header{
+    width: 1440px;
+    height: 72px;
+    padding: 24px 151px 24px 115px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.accent{
+    color: #4D5AE5;
+}
+
+ul{
+    list-style-type: none;
+}
+.nav-list{
+    width: 70px;
+}
