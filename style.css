@@ -29,6 +29,7 @@ a {
     font-weight: 700;
     line-height: 21px;
     text-transform: uppercase;
+    letter-spacing: 3%;
 }
 
 .accent{
@@ -40,7 +41,7 @@ ul{
     display: inline-block;
 }
 .nav-list{
-    display: inline-block;
+    display: block;
 
 }
 
@@ -79,7 +80,7 @@ ul{
 .info{
     width: 1440px;
     height: 344px;
-    padding: 120px 148px;
+    padding: 120px 156px;
 
 }
 
@@ -119,8 +120,8 @@ ul{
     height: 732px;
     background-color: #F4F4FD;
     padding-top: 120px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
 
 }
 
@@ -164,5 +165,68 @@ ul{
 .portfolio{
     width: 1440px;
     height: 1240px;
-padding: 120px 156px;
+padding: 120px 144px;
+}
+
+.portfolio-title{
+    margin-bottom: 62px;
+}
+
+.portfolio-box{
+    width: 360px;
+    height: 420px;
+    display: inline-block;
+    border: 1px solid #E7E9FC;
+    margin: 14px 10px;
+}
+
+.portfolio-img{
+    width: 358px;
+    height: 300px;
+}
+
+.portfolio-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    margin-top: 25px;
+    margin-left: 15px;
+    color: #2E2F42;
+}
+
+.portfolio-txt{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+footer{
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding: 100px 156px;
+}
+
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    letter-spacing: 3%;
+}
+
+.footer-txt{
+    width: 264px;
+    height: 72px;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: justify;
+    margin-top: 16px;
 }
