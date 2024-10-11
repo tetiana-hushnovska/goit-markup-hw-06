@@ -30,6 +30,7 @@ a {
     line-height: 21px;
     text-transform: uppercase;
     letter-spacing: 3%;
+    width: 115px;
 }
 
 .accent{
@@ -40,8 +41,13 @@ ul{
     list-style-type: none;
     display: inline-block;
 }
+
+.nav{
+    display: flex;
+}
 .nav-list{
-    display: block;
+    width: 67px;
+    display: inline-block;
 
 }
 
