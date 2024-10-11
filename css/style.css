@@ -209,7 +209,7 @@ padding: 120px 144px;
 }
 
 .portfolio-img{
-    width: 360;
+    /* width: 360; */
     height: 300px;
 }
 
@@ -231,7 +231,7 @@ padding: 120px 144px;
     margin-left: 15px;
 }
 
-footer{
+.footer-box{
     width: 1440px;
     height: 312px;
     background-color: #2E2F42;
