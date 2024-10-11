@@ -106,6 +106,7 @@ ul{
     height: 104px;
     margin: auto;
     text-align: justify;
+    letter-spacing: 0.02em;
 }
 
 .info-title{
@@ -137,7 +138,7 @@ ul{
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
