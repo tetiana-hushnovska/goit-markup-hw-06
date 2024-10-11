@@ -7,7 +7,6 @@
 body{
     background-color: #FFFFFF;;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
     color: #434455;
 }
 
@@ -236,7 +235,6 @@ footer{
     width: 1440px;
     height: 312px;
     background-color: #2E2F42;
-    color: #F4F4FD;
     padding: 100px 156px;
 }
 
@@ -262,4 +260,5 @@ footer{
     letter-spacing: 0.02em;
     text-align: justify;
     margin-top: 16px;
+color: #F4F4FD;
 }
