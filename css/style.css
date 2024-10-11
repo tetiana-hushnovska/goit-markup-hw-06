@@ -59,6 +59,22 @@ ul{
     color: #404bbf;
 }
 
+.address{
+    font-style: normal;
+}
+
+.option{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434445;
+}
+
+.option:hover,
+.option:focus{
+    color: #404bbf;
+    cursor: pointer;
+}
+
 .solution{
     width: 1440px;
     height: 600px;
