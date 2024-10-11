@@ -8,10 +8,10 @@ body{
     background-color: #FFFFFF;;
     font-family: "Roboto", sans-serif;
     color: #434455;
+    width: 1440px;
 }
 
 header{
-    width: 1440px;
     height: 72px;
     padding: 24px 151px 24px 115px;
     display: flex;
@@ -76,7 +76,6 @@ ul{
 }
 
 .solution{
-    width: 1440px;
     height: 600px;
     background-color: #2E2F42;
     padding-top: 188px;
@@ -119,7 +118,6 @@ ul{
 }
 
 .info{
-    width: 1440px;
     height: 344px;
     padding: 120px 156px;
 
@@ -158,7 +156,6 @@ ul{
 }
 
 .team{
-    width: 1440px;
     height: 732px;
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -207,7 +204,6 @@ ul{
 }
 
 .portfolio{
-    width: 1440px;
     height: 1240px;
 padding: 120px 144px;
 }
@@ -225,7 +221,6 @@ padding: 120px 144px;
 }
 
 .portfolio-img{
-    /* width: 360; */
     height: 300px;
 }
 
@@ -248,7 +243,6 @@ padding: 120px 144px;
 }
 
 .footer-box{
-    width: 1440px;
     height: 312px;
     background-color: #2E2F42;
     padding: 100px 156px;
