@@ -244,10 +244,14 @@ footer{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     text-transform: uppercase;
-    color: #F4F4FD;
-    letter-spacing: 3%;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+}
+
+.accent{
+    color:#f4f4fd;
 }
 
 .footer-txt{
