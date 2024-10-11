@@ -34,7 +34,7 @@ a {
     color: #4d5ae5;
 }
 
-.accent{
+span{
     color: #2e2f42;
 }
 
@@ -49,7 +49,15 @@ ul{
 .nav-list{
     width: 67px;
     display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
+.nav-list:hover,
+.nav-list:focus{
+    color: #404bbf;
 }
 
 .solution{
