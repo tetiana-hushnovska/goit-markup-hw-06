@@ -1,20 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
     background-color: #FFFFFF;;
     font-family: "Roboto", sans-serif;
     color: #434455;
-    width: 1440px;
-}
-
-header{
-    height: 72px;
-    padding: 24px 151px 24px 115px;
-    display: flex;
 }
 
 a {
@@ -29,7 +16,6 @@ a {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    width: 115px;
     color: #4d5ae5;
 }
 
@@ -39,15 +25,9 @@ span{
 
 ul{
     list-style-type: none;
-    display: inline-block;
 }
 
-.nav{
-    display: flex;
-}
 .nav-list{
-    width: 67px;
-    display: inline-block;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -76,17 +56,12 @@ ul{
 }
 
 .solution{
-    height: 600px;
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-left: 472px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
 .solution-title{
-    width: 496px;
-    height: 120px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -96,8 +71,6 @@ ul{
 }
 
 .solution-btn{
-    width: 169px;
-    height: 56px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -105,8 +78,6 @@ ul{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
-    border: none;
     margin-top: 84px;
     margin-left: 166px;
 }
@@ -117,25 +88,8 @@ ul{
     background-color: #404BBF;
 }
 
-.info{
-    height: 344px;
-    padding: 120px 156px;
-
-}
-
-.hidden{
-    display: none;
-}
-
-.info-list,
-.team-info{
-    display: flex;
-}
-
 .info-details{
     position: relative;
-    width: 264px;
-    height: 104px;
     margin: auto;
     text-align: justify;
     letter-spacing: 0.02em;
@@ -156,11 +110,7 @@ ul{
 }
 
 .team{
-    height: 732px;
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 
 }
 
@@ -176,13 +126,8 @@ ul{
 }
 
 .team-list{
-    position: relative;
     background-color: #FFFFFF;
-    width: 264px;
-    height: 380px;
     margin: 72px auto;
-    border-radius: 0 0 4px 4px;
-    /* box-shadow: 16% #2E2F42; */
 }
 
 .team-name{
@@ -203,25 +148,13 @@ ul{
     margin-top: 2px;
 }
 
-.portfolio{
-    height: 1240px;
-padding: 120px 144px;
-}
-
 .portfolio-title{
     margin-bottom: 62px;
 }
 
 .portfolio-box{
-    width: 360px;
-    height: 420px;
-    display: inline-block;
     border: 1px solid #E7E9FC;
     margin: 14px 10px;
-}
-
-.portfolio-img{
-    height: 300px;
 }
 
 .portfolio-name{
@@ -243,9 +176,7 @@ padding: 120px 144px;
 }
 
 .footer-box{
-    height: 312px;
     background-color: #2E2F42;
-    padding: 100px 156px;
 }
 
 .footer-logo{
@@ -263,8 +194,6 @@ padding: 120px 144px;
 }
 
 .footer-txt{
-    width: 264px;
-    height: 72px;
     font-weight: 400px;
     line-height: 24px;
     letter-spacing: 0.02em;
