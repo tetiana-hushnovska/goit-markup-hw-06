@@ -78,8 +78,6 @@ ul{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-top: 84px;
-    margin-left: 166px;
 }
 
 .solution-btn:hover,
@@ -89,7 +87,6 @@ ul{
 }
 
 .info-details{
-    position: relative;
     margin: auto;
     text-align: justify;
     letter-spacing: 0.02em;
