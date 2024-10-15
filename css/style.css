@@ -260,8 +260,8 @@ ul {
 .portfolio-wrap{
     flex-wrap: wrap;
     width: 1128px;
-    row-gap: 24px;
     column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-box {
