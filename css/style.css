@@ -21,7 +21,7 @@ ul {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     margin-left: 156px;
     margin-right: 156px;
     padding-left: 0;
@@ -120,9 +120,12 @@ ul {
 .solution {
     background-color: #2E2F42;
     padding: 188px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .solution-title {
+    max-width: 496px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -134,7 +137,7 @@ ul {
 
 .solution-btn {
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -145,12 +148,12 @@ ul {
     letter-spacing: 0.04em;
     margin: 0 auto;
     border: none;
-    border-radius: 4%;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .solution-btn:hover,
 .solution-btn:focus {
-    cursor: pointer;
     background-color: #404BBF;
 }
 
@@ -206,6 +209,7 @@ ul {
 
 .team-info{
     width: 1128px;
+    gap: 24px;
 }
 
 .team-title,
@@ -217,12 +221,18 @@ ul {
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .team-list {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     margin: 72px auto;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-wrap{
+    padding: 32px 0;
 }
 
 .team-name {
@@ -232,7 +242,7 @@ ul {
     color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-txt {
@@ -240,7 +250,6 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 2px;
     margin-bottom: 32px;
 }
 
@@ -251,17 +260,18 @@ ul {
 .portfolio-wrap{
     flex-wrap: wrap;
     width: 1128px;
-    gap: 24px;
-}
-
-.portfolio-title {
-    margin-bottom: 62px;
+    row-gap: 24px;
+    column-gap: 24px;
 }
 
 .portfolio-box {
     width: calc((100% - 48px)/3);
-    border: 1px solid #E7E9FC;
-    /* margin: 14px 10px; */
+}
+
+.portfolio-txt-box{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-name {
@@ -269,18 +279,14 @@ ul {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-top: 25px;
-    margin-left: 15px;
     color: #2E2F42;
+    margin-bottom: 8px
 }
 
 .portfolio-txt {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-top: 8px;
-    margin-left: 15px;
-    margin-bottom: 25px;
 }
 
 .footer-box {
