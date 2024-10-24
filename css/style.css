@@ -6,12 +6,17 @@
 
 body {
     background-color: #FFFFFF;
-    ;
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -22,10 +27,10 @@ ul {
 
 .container {
     max-width: 1158px;
-    margin-left: 156px;
-    margin-right: 156px;
-    padding-left: 0;
-    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 img {
@@ -36,17 +41,15 @@ a {
     color: #000000;
     text-decoration: none;
 }
-.header-main{
-border-bottom: 1px solid #e7e9fc;
-padding: 24px 0;
+
+.header-main {
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0 0 0;
 }
 
 .header {
-    width: 1158px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    padding: 0 15px;
 }
 
 .logo {
@@ -72,22 +75,21 @@ span {
 
 ul {
     list-style-type: none;
-    display: flex;
 }
 
-.nav{
-    width: 261px;
+.nav {
     gap: 40px;
-    margin-right: 302px;
+    display: flex;
+    position: relative;
 }
 
 .nav-list {
     display: inline-block;
-    height: 24px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-list:hover,
@@ -95,19 +97,36 @@ ul {
     color: #404bbf;
 }
 
-.address {
-    font-style: normal;
-    width: 344px;
+.nav-box::after{
+content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #FFFFFF;
+        display: block;
+        bottom: 0px;
+        left: 0;
+}
+.nav-box:hover::after{
+    background-color: #404BBF;
 }
 
-.address-list{
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address-list {
     gap: 40px;
+    display: flex;
 }
 
 .option {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .option:hover,
@@ -119,9 +138,7 @@ ul {
 .solution {
     background-color: #2E2F42;
     padding: 188px 0;
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to bottom, 
+    background: linear-gradient(to bottom,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
     url(../images/background.jpg);
@@ -138,6 +155,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     line-height: 1.07;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 48px;
 }
 
@@ -163,7 +182,7 @@ ul {
     background-color: #404BBF;
 }
 
-.info{
+.info {
     padding: 120px 0 120px 0;
 }
 
@@ -180,32 +199,14 @@ ul {
     overflow: hidden;
 }
 
-.info-list{
-    width: 1128px;
+.info-list {
     gap: 24px;
+    display: flex;
 }
 
 .info-details {
     width: calc((100% - 72px)/4);
-    margin: auto;
-    text-align: justify;
     letter-spacing: 0.02em;
-}
-
-.info-img{
-    width: 264px;
-    height: 112px;
-    border: 1px solid #8E8F99;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-#icon-antenna{
-    width: 60px;
-    height: 64px;
-    fill: #2E2F42;
 }
 
 .info-title {
@@ -229,9 +230,9 @@ ul {
 
 }
 
-.team-info{
-    width: 1128px;
+.team-info {
     gap: 24px;
+    display: flex;
 }
 
 .team-title,
@@ -253,7 +254,7 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrap{
+.team-wrap {
     padding: 32px 0;
 }
 
@@ -272,16 +273,28 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 32px;
 }
 
-.portfolio{
+.social-links{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.portfolio {
     padding: 120px 0 120px 0;
 }
 
-.portfolio-wrap{
+.portfolio-wrap {
     flex-wrap: wrap;
-    width: 1128px;
+    display: flex;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -290,7 +303,7 @@ ul {
     width: calc((100% - 48px)/3);
 }
 
-.portfolio-txt-box{
+.portfolio-txt-box {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -333,8 +346,7 @@ ul {
 }
 
 .footer-txt {
-    width: 264px;
-    font-weight: 400px;
+    max-width: 264px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: justify;
