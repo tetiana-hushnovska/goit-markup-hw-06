@@ -424,6 +424,7 @@ ul {
 
 .footer-cont{
     display: flex;
+    align-items: baseline;
 }
 
 .footer-info{
