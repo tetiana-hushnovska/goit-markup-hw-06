@@ -467,3 +467,7 @@ ul {
 .hover:focus{
     background-color: #31d0aa;
 }
+
+.links-gap{
+    gap: 16px;
+}
