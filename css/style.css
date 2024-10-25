@@ -338,7 +338,7 @@ ul {
 }
 
 .icon{
-    fill: #FFFFFF; 
+    fill: #f4f4fd; 
 }
 
 .portfolio {
@@ -355,6 +355,7 @@ ul {
 .portfolio-box {
     width: calc((100% - 48px)/3);
     position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay{
@@ -389,7 +390,9 @@ ul {
 
 .portfolio-box:focus .portfolio-txt-box,
 .portfolio-box:hover .portfolio-txt-box{
-    box-shadow: 2px 2px 4px 0px rgba(46, 47, 66, 0.16);;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-name {
