@@ -44,7 +44,6 @@ a {
 
 .header-main {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0 0 0;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);;
@@ -158,6 +157,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .solution-title {
@@ -280,7 +280,7 @@ ul {
 .team-list {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    margin: 72px auto;
+    margin: 0 auto;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
