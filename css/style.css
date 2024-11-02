@@ -724,9 +724,9 @@ ul {
 }
 
 input[type="checkbox"]:checked + .privacy > .policy{
+    background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
-    background-color: #404bbf;
 }
 
 .form-submit{
