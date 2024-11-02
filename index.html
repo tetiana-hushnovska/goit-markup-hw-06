@@ -635,6 +635,7 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="register-form">
+          
           <div class="form-wrap">
             <label class="form-label" for="user-name"> Name </label>
             <div class="form-area">
@@ -648,9 +649,11 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
+          </div>
 
-            <div class="form-area">
+          <div class="form-wrap">
               <label class="form-label" for="user-number"> Phone </label>
+            <div class="form-area">
               <input
                 type="tel"
                 name="user-number"
@@ -661,14 +664,17 @@
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
             </div>
+          </div>
 
-            <div class="form-area">
+          <div class="form-wrap">
               <label class="form-label" for="email"> Email </label>
+            <div class="form-area">
               <input type="email" name="email" id="email" class="modal-input" />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </div>
+          </div>
 
             <div class="comment-area">
               <label class="form-label" for="user-comment">
@@ -681,7 +687,6 @@
                 ></textarea>
               </label>
             </div>
-          </div>
         </form>
 
         <div class="agree">
@@ -701,7 +706,6 @@
             I accept the terms and conditions of the
             <span class="policy-link">Privacy Policy</span>
           </label>
-        </div>
 
         <button type="submit" class="form-submit">Send</button>
       </div>
