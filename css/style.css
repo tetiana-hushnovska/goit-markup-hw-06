@@ -717,7 +717,7 @@ ul {
     fill: transparent;
 }
 
-input[type="checkbox"]:checked {
+input[type="checkbox"]:checked{
     border: none;
     fill: #f4f4fd;
     background-color: #404bbf;
