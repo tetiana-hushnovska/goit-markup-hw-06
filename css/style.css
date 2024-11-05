@@ -488,7 +488,6 @@ ul {
     background-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 8px 16px;
-    margin-right: 24px;
     color: #FFFFFF;
     border: 1px solid #4d5ae5;
     outline: none;
@@ -739,7 +738,7 @@ input[type="checkbox"]:checked + .check-label > .check-span{
     letter-spacing: 0.04em;
     line-height: 1.5;
     display: block;
-    margin: 0 auto 24px auto;
+    margin: 0  auto;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
