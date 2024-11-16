@@ -1840,3 +1840,9 @@ a {
     background-color: #404bbf;
   }
 }
+
+@media (min-resolution: 192dpi){
+    .solution{
+        background: url(../images/background@2x.jpg);
+    }
+}
